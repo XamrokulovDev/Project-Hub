@@ -26,7 +26,7 @@ const Navbar = () => {
             <img src={clipboard} alt="" className='w-[40px] h-[40px] max-sm:w-[30px] max-sm:h-[30px] object-cover'/>
             <h1 className='text-sm text-[#FFF] max-sm:text-[12px]'>Portfolio</h1>
         </NavLink>
-        <NavLink to="/" className='flex flex-col justify-center items-center'>
+        <NavLink to="/Team" className='flex flex-col justify-center items-center'>
             <img src={group} alt="" className='w-[45px] h-[40px] max-sm:w-[30px] max-sm:h-[30px] object-cover'/>
             <h1 className='text-sm text-[#FFF] max-sm:text-[12px]'>Team</h1>
         </NavLink>

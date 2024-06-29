@@ -10,8 +10,8 @@ const Portfolio = () => {
     <div className="home bg-[#1E1E20] w-[100vw] h-[100vh] relative">
         <div className="flex justify-between gap-16 pt-20 px-20 max-md:px-5 max-md:pt-5">
     {/* section Start  */}
-            <section className="bg-[#242426] w-[80vw] max-xl:w-[75vw] h-[70vh] rounded-2xl max-md:w-full px-16 py-16 max-md:px-4 max-md:py-4 overflow-scroll">
-              <h1 className="text-5xl text-[#4CAAAA] font-semibold pb-10">Portfolio</h1>
+            <section className="bg-[#242426] w-[80vw] max-xl:w-[75vw] h-[70vh] rounded-2xl max-md:w-full px-16 py-12 max-md:px-4 max-md:py-4 overflow-scroll">
+              <h1 className="text-5xl text-[#4CAAAA] font-bold pb-10">Portfolio</h1>
               <div className="cards grid grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-2 max-lg:grid-cols-1  max-xl:grid-cols-2 gap-10">
                 {
                   portfolio?.map((item) => (

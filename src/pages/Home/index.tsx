@@ -10,7 +10,7 @@ const Home = () => {
     <div className="home bg-[#1E1E20] w-[100vw] h-[100vh] relative">
         <div className="flex justify-between gap-16 pt-20 px-20 max-md:px-5 max-md:pt-5">
     {/* section Start  */}
-            <section className="bg-[#242426] w-[80vw] flex items-start justify-between max-lg:flex-col-reverse gap-5 max-xl:w-[75vw] h-[70vh] rounded-2xl max-md:w-full px-16 py-16 max-md:px-4 max-md:py-4 overflow-scroll">
+            <section className="bg-[#242426] w-[80vw] flex items-start justify-between max-lg:flex-col-reverse gap-5 max-xl:w-[75vw] h-[70vh] rounded-2xl max-md:w-full px-16 py-12 max-md:px-4 max-md:py-4 overflow-scroll">
               <div className='home-content w-[50%] max-lg:w-full'>
                 <img src={home} alt="" className='max-lg:hidden'/>
                 <div className="text pr-48 max-2xl:p-0">

@@ -6,6 +6,8 @@ import Routerlayout from "./layout"
 // import pages 
 import Home from "./pages/Home"
 import Portfolio from "./pages/Portfolio"
+import Services from "./pages/Services"
+import Team from "./pages/Team"
 
 const App = () => {
   const router = createBrowserRouter([
@@ -20,6 +22,14 @@ const App = () => {
         {
           path: "/Portfolio",
           element: <Portfolio />
+        },
+        {
+          path: "/Services",
+          element: <Services />
+        },
+        {
+          path: "/Team",
+          element: <Team />
         }
       ]
     }
